@@ -29,7 +29,7 @@ A Debian-based system
 | `nextcloud_admins`              | `false`                   | Dict containing the ldap usernames as key that should be added to the admin group                                               |
 
 ### LDAP Settings 
-This is a list of the ldap attributes, for a description and behaviour please see the [Nextcloud documentation](https://docs.nextcloud.com/server/13/admin_manual/configuration_user/user_auth_ldap.html#configuration)
+This is a list of the ldap attributes, for a description and behaviour please see the [Nextcloud documentation](https://docs.nextcloud.com/server/13/admin_manual/configuration_user/user_auth_ldap.html#configuration).<br/>
 To set a LDAP attribute put the attribute in the nextcloud_ldap dict.
 ```yml
 nextcloud_ldap:
